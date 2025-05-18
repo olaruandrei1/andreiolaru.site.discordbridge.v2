@@ -1,0 +1,12 @@
+@baseUrl = http://localhost:5170
+@apiKey = UaPEDHSlavXaZizjmTxOhj
+
+POST {{baseUrl}}/api/send_message
+Content-Type: application/json
+X-Api-Key: {{apiKey}}
+
+{
+  "from": "andrei@andreiolaru.com",
+  "subject": "Test Message",
+  "message": "Salutare din .http file 👋"
+}

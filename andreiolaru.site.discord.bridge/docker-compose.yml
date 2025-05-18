@@ -1,0 +1,29 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    container_name: discord-bridge
+    ports:
+      - "3002:80"
+    env_file:
+      - .env
+    depends_on:
+      - mysql
+    restart: always
+
+  mysql:
+    image: mysql:8.0
+    container_name: mysql-db
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: Ce!r#N!c@2
+      MYSQL_USER: P_W_OLCA_S
+      MYSQL_PASSWORD: P@#@R!d3Cm2
+      MYSQL_DATABASE: personal_website
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:

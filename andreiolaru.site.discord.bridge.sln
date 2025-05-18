@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "andreiolaru.site.discord.bridge", "andreiolaru.site.discord.bridge\andreiolaru.site.discord.bridge.csproj", "{611003EB-67E3-4570-90EC-A0135261D8A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{03C0E41C-D842-460A-B6AB-9B5B377C4F07}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "andreiolaru.site.discord.bridge.Domain", "andreiolaru.site.discord.bridge.Domain\andreiolaru.site.discord.bridge.Domain.csproj", "{A7EED52B-A4B2-474C-996B-75DEEACEC9EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "andreiolaru.site.discord.bridge.Persistence", "andreiolaru.site.discord.bridge.Persistence\andreiolaru.site.discord.bridge.Persistence.csproj", "{0B44EDA0-E289-45E1-9CB0-9A6F6277F51A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "andreiolaru.site.discord.bridge.Infrastructure", "andreiolaru.site.discord.bridge.Infrastructure\andreiolaru.site.discord.bridge.Infrastructure.csproj", "{7A6222B2-F137-40F4-B1AB-8BA8E7746EE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "andreiolaru.site.discord.bridge.Application", "andreiolaru.site.discord.bridge.Application\andreiolaru.site.discord.bridge.Application.csproj", "{75E06DF2-00D0-4E83-B17D-810526EF362B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "andreiolaru.site.discord.Dispatchers", "andreiolaru.site.discord.Dispatchers\andreiolaru.site.discord.Dispatchers.csproj", "{5CB2655C-D3A6-4301-9EBD-28CF515891E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{611003EB-67E3-4570-90EC-A0135261D8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{611003EB-67E3-4570-90EC-A0135261D8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{611003EB-67E3-4570-90EC-A0135261D8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{611003EB-67E3-4570-90EC-A0135261D8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7EED52B-A4B2-474C-996B-75DEEACEC9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7EED52B-A4B2-474C-996B-75DEEACEC9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7EED52B-A4B2-474C-996B-75DEEACEC9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7EED52B-A4B2-474C-996B-75DEEACEC9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B44EDA0-E289-45E1-9CB0-9A6F6277F51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B44EDA0-E289-45E1-9CB0-9A6F6277F51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B44EDA0-E289-45E1-9CB0-9A6F6277F51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B44EDA0-E289-45E1-9CB0-9A6F6277F51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A6222B2-F137-40F4-B1AB-8BA8E7746EE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6222B2-F137-40F4-B1AB-8BA8E7746EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6222B2-F137-40F4-B1AB-8BA8E7746EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6222B2-F137-40F4-B1AB-8BA8E7746EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E06DF2-00D0-4E83-B17D-810526EF362B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E06DF2-00D0-4E83-B17D-810526EF362B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E06DF2-00D0-4E83-B17D-810526EF362B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E06DF2-00D0-4E83-B17D-810526EF362B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB2655C-D3A6-4301-9EBD-28CF515891E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB2655C-D3A6-4301-9EBD-28CF515891E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB2655C-D3A6-4301-9EBD-28CF515891E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB2655C-D3A6-4301-9EBD-28CF515891E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
