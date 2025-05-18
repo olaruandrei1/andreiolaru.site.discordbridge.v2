@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/andreiolaru.site.discord.bridge.props" />
-</Project>

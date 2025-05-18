@@ -1,7 +1,0 @@
-﻿services:
-  andreiolaru.site.discord.bridge:
-    image: andreiolaru.site.discord.bridge
-    build:
-      context: .
-      dockerfile: andreiolaru.site.discord.bridge/Dockerfile
-
