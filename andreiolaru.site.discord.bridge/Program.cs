@@ -46,7 +46,7 @@ using (var scope = app.Services.CreateScope())
 
 app.UseMiddleware<ApiKeyMiddleware>();
 
-app.MapPost("/api/send_message", async (
+app.MapPost("/send_message", async (
     [FromBody] DiscordMessageRequest request,
     IMediator mediator,
     IMapper mapper) =>
